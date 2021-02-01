@@ -11,6 +11,12 @@ class registerController extends Controller {
 	 *
 	 * @return void
 	 */
+
+	//muestra la vista de registro
+	public function showregister() {
+		return view('register');
+	}
+
 	public function register(Request $req) {
 		$data = $req->all();
 		// validamos los datos
