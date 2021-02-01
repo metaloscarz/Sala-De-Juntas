@@ -19,7 +19,7 @@ $router->get('/', function () use ($router) {
 
 $router->get('login', 'LoginController@showlogin');
 $router->post('login', 'LoginController@login');
-$router->get('register', 'LoginController@showregister');
+$router->get('register', 'RegisterController@showregister');
 $router->post('register', 'RegisterController@register');
 
 // aplicamos el middleware auth
