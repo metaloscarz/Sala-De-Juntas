@@ -10,7 +10,7 @@
   <body>
     <center>
     <div class="contenedor_formulario">
-      <form class="sombra_formulario" action="#" method="post" autocomplete="on">
+      <form class="sombra_formulario" action="login" method="post" autocomplete="on">
         <div class="cabeza_formulario aquamarina">
           <span class="txt_1 bold t_blanco">Sign in</span>
         </div>
