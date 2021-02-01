@@ -11,6 +11,11 @@ class LoginController extends Controller {
 	 *
 	 * @return void
 	 */
+
+	public function showlogin() {
+		return view('login');
+	}
+
 	public function login(Request $req) {
 		// validacion del request
 		$this->validate($req, [
