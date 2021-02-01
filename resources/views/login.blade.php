@@ -12,22 +12,22 @@
     <div class="contenedor_formulario">
       <form class="sombra_formulario" action="#" method="post" autocomplete="on">
         <div class="cabeza_formulario aquamarina">
-          <span class="txt_1 bold t_blanco">Iniciar sesión</span>
+          <span class="txt_1 bold t_blanco">Sign in</span>
         </div>
         <div class="cuerpo_formulario">
           <div class="form-content"><br>
             <div class="inputWithIcon">
-              <input id="email" class="txt_4" name="email" type="email" placeholder="Correo electrónico" value="" autocomplete="on" required>
+              <input id="email" class="txt_4" name="email" type="email" placeholder="Email" autocomplete="on" required>
               <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
             </div>
             <div class="inputWithIcon">
-              <input id="password" class="txt_4" name="password" type="password" placeholder="Contraseña" autocomplete="on" required="">
+              <input id="password" class="txt_4" name="password" type="password" placeholder="Password" autocomplete="on" required="">
               <i id="ic-pass" class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
             </div>
             <br><br>
-            <a href="register">¿Aún no ha creado su cuenta?, haz click aquí</a>
+            <span class="txt_4">No account </span><a href="register"><span class="txt_4">Create one!</span></a>
             <br><br>
-            <button type="submit" class="boton azul width_100 txt_3">Acceder</button>
+            <button type="submit" class="boton azul width_100 txt_3">Next</button>
             <br>
           </div>
         </div>
