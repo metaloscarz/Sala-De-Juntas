@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Str;
 
 class LoginController extends Controller {
 	/**
@@ -30,7 +31,7 @@ class LoginController extends Controller {
 		if (Crypt::decrypt($user->password) === $req->input('password')) {
 
 			// creamos un string random para el token
-			$api_token = str_random(50);
+			$api_token = Str::random(50);
 
 			// le seteamos el api_token al usuario
 			$user->api_token = $api_token;
